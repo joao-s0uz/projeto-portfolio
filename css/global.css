@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: "Fira Sans";
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.tamanho-max {
+  max-width: 1200px;
+  margin: 0 auto;
+}
