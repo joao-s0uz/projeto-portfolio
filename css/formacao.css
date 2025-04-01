@@ -9,6 +9,13 @@
   grid-template-columns: 1fr 2fr;
   gap: 140px;
   padding: 120px 20px 20px;
+  position: relative;
+}
+
+.container-form::before {
+  content: url(../img/detalhe.svg);
+  position: absolute;
+  bottom: -70px;
 }
 
 .titulo-form {
@@ -21,6 +28,11 @@
   line-height: 32px;
   margin-bottom: 60px;
   padding-top: 10px;
+  color: #a3a3a3;
+}
+
+.intro-form b {
+  color: #fff;
 }
 
 .formacoes {
@@ -35,6 +47,23 @@
   border: 1px solid #000;
   border-radius: 4px;
   padding: 20px;
+  position: relative;
+}
+
+.lista-form::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-color: #67dd0a;
+  position: absolute;
+  left: -4px;
+  top: 50px;
+}
+
+.lista-form span {
+  font-size: 14px;
+  color: #a3a3a3;
+  text-transform: uppercase;
 }
 
 .lista-form h3 {
@@ -43,6 +72,7 @@
 
 .facul {
   margin-top: 50px;
+  color: #a3a3a3;
 }
 
 .cursos {
@@ -60,6 +90,22 @@
   margin-bottom: 30px;
   text-transform: uppercase;
   font-size: 14px;
+  color: #8f8f8f;
+  position: relative;
+}
+
+.cursos h3::before {
+  content: url(../img/cursos.svg);
+  position: absolute;
+  left: -35px;
+  top: -5px;
+}
+
+.idiomas h3::before {
+  content: url(../img/idiomas.svg);
+  position: absolute;
+  left: -35px;
+  top: -5px;
 }
 
 .cursos ul {
@@ -70,6 +116,11 @@
 .cursos ul li,
 .idiomas ul li {
   margin-bottom: 20px;
+}
+
+.cursos ul span,
+.idiomas ul span {
+  color: #8f8f8f;
 }
 
 @media (max-width: 1100px) {

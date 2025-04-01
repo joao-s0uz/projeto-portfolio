@@ -43,6 +43,7 @@
 
 .apresentacao p {
   font-size: 24px;
+  color: #525252;
 }
 
 .apresentacao h2::before {
