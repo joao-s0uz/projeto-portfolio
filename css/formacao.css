@@ -1,0 +1,108 @@
+#formacao {
+  margin-top: 80px;
+  background-color: #141414;
+  color: #fff;
+}
+
+.container-form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 140px;
+  padding: 120px 20px 20px;
+}
+
+.titulo-form {
+  line-height: 144px;
+  color: #000;
+}
+
+.intro-form {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 60px;
+  padding-top: 10px;
+}
+
+.formacoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 60px;
+}
+
+.lista-form {
+  background-color: #090909;
+  border: 1px solid #000;
+  border-radius: 4px;
+  padding: 20px;
+}
+
+.lista-form h3 {
+  margin-top: 10px;
+}
+
+.facul {
+  margin-top: 50px;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.cursos h3,
+.idiomas h3 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.cursos ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cursos ul li,
+.idiomas ul li {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1100px) {
+  #formacoes {
+    margin-top: 50px;
+  }
+
+  .container-form {
+    gap: 70px;
+  }
+}
+
+@media (max-width: 840px) {
+  #formacoes {
+    margin-top: 20px;
+  }
+
+  .container-form {
+    grid-template-columns: 1fr;
+    padding: 40px;
+    gap: 20px;
+  }
+
+  .titulo-form {
+    text-align: center;
+  }
+
+  .intro-form {
+    font-size: 18px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 620px) {
+  .formacoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
