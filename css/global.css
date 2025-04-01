@@ -31,3 +31,22 @@ img {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.titulo {
+  text-transform: uppercase;
+  word-break: break-all;
+  font-size: 144px;
+}
+
+@media (max-width: 1050px) {
+  .titulo {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 750px) {
+  .titulo {
+    word-break: keep-all;
+    font-size: 50px;
+  }
+}

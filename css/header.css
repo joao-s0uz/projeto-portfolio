@@ -64,6 +64,10 @@
 }
 
 @media (max-width: 750px) {
+  .navegacao {
+    margin-bottom: 40px;
+  }
+
   .secao-img {
     display: none;
   }
